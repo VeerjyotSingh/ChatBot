@@ -1,8 +1,11 @@
 import openai
 import os
 import tkinter as tk
+from tkinter import ttk
+#please run pip install openai in terminal before running the programe
+#Git hub link :-
 x=0
-openai.api_key = "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"
+openai.api_key = "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"
 messages = []
 system_msg = "environmentalist answer in 30 words"
 messages.append({"role": "system", "content": system_msg})
@@ -30,11 +33,10 @@ def Justdoit():
 
 
 #UI worksing below :-
-
 root = tk.Tk()
 root.configure(bg="black")
 root.title("Sarthi: The Chatbot")
-root.minsize(1280,720)
+root.geometry("1280x720")
 w = tk.Frame (root,height = 540, bg="#242423" ,width = 1240)
 w.grid(pady=(20,20), padx=(20,20))
 w.grid_propagate(False)
