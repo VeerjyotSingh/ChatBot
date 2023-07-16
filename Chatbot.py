@@ -3,9 +3,9 @@ import os
 import tkinter as tk
 from tkinter import ttk
 #please run pip install openai in terminal before running the programe
-#Git hub link :-
+#Git hub link :-https://github.com/VeerjyotSingh/ChatBot.git
 x=0
-openai.api_key = "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"
+openai.api_key = "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"
 messages = []
 system_msg = "environmentalist answer in 30 words"
 messages.append({"role": "system", "content": system_msg})
