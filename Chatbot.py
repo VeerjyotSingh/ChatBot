@@ -5,9 +5,9 @@ from tkinter import ttk
 #please run pip install openai in terminal before running the programe
 #Git hub link :-https://github.com/VeerjyotSingh/ChatBot.git
 x=0
-openai.api_key = "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"
+openai.api_key = "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"
 messages = []
-system_msg = "environmentalist answer in 30 words"
+system_msg = "talk like Friday from iron man"
 messages.append({"role": "system", "content": system_msg})
 os.system('cls' if os.name == 'nt' else 'clear')
 print("Your assistant is ready!")
