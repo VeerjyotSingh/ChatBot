@@ -5,7 +5,7 @@ from tkinter import ttk
 #please run pip install openai in terminal before running the programe
 #Git hub link :-https://github.com/VeerjyotSingh/ChatBot.git
 x=0
-openai.api_key = "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"
+openai.api_key = "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"
 messages = []
 system_msg = "talk like Friday from iron man"
 messages.append({"role": "system", "content": system_msg})

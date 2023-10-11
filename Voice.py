@@ -8,13 +8,13 @@ import openai
 import uuid
 
 
-api_key = "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"
+api_key = "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"
 
 lang ='en'
 
 openai.api_key = api_key
 
-system_msg = "talk like jarvis from ironman"
+system_msg = "clinal answers only"
 guy = ""
 
 while True:
